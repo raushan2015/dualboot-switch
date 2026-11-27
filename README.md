@@ -59,3 +59,6 @@ chmod +x linux/reboot-to-windows.sh
 
 ## Uninstall
 Run `Uninstall.ps1`.
+
+## License
+[MIT](LICENSE) © 2026 Raushan Kumar Chaudhary
