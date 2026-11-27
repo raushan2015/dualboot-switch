@@ -2,6 +2,12 @@
 
 One-click **Windows 11 → Ubuntu** reboot (plus an optional Ubuntu → Windows script) for a dual-boot where Ubuntu lives on an external USB NVMe SSD.
 
+## GUI Preview
+
+| Windows 11 → Ubuntu | Ubuntu → Windows 11 |
+| :---: | :---: |
+| ![Windows 11 Reboot to Ubuntu GUI](assets/windows11-gui.jpg) | ![Ubuntu Reboot to Windows GUI](assets/ubuntu-gui.jpg) |
+
 ## How it works
 The tool sets the UEFI **`BootNext`** variable with `bcdedit /set {fwbootmgr} bootsequence {id}`. The firmware then boots the Ubuntu entry **once only**. Your normal boot order isn't changed, so you never need to open the BIOS boot menu or change the boot order.
 
